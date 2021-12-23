@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title> BlackJack - Game </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1> BLACKJACK </h1>
+    <p id="message-el"> Want to play a round? </p>
+    <p id="cards-el"> Cards: </p>
+    <p id="sum-el"> Score: </p>
+    
+    <button onclick="startgame()"> START GAME </button>
+    <div><button onclick="newcard()"> NEW CARD </button></div>
+    
+    <p style="font-weight: bold; margin-top: 75px; color:goldenrod;"> RULES: </p>
+    <p style="margin:10px 35px; word-spacing: 2px; text-indent: 40px;"> You will be provided with two initial cards either (1 to 10) or any card among (A, J, Q, K). 
+     Each card will have its own value that raises the total score to a certain amount. 
+     Each of the cards from 1 to 10 have a score of 1 to 10 respectively.
+     The card 'A' has a score of 11 and each of the cards 'J', 'Q' and 'K' will be counted as 10.
+     Getting a total score of 21 will make you hit the Blackjack.
+     You can draw new cards one by one until you hit the Blackjack.
+     If your score exceeded 21 then you're out of the game. </p> 
+     
+    <p style="font-weight: bold; margin-top: 75px; color:goldenrod;"> HOW TO PLAY: </p>
+    <p style="margin:10px 35px; word-spacing: 2px; text-indent: 40px;"> Click <b>"START GAME" </b> button to start the game.
+     You will be provided with your two initial cards.
+     You can see your cards and your score at their respective sections.
+     If you didnt have enough score you can draw a new card by clicking on the "NEW CARD" button. 
+     You cant draw another card when you hit a blackjack or when youre out of the game.
+     That's all and Good luck!</p>
+    <script src="script.js"></script>
+</body>
+</htmL>
